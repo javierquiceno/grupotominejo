@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "poppins", sans-serif; 
+    line-height: 1.6;
+    background-color: #ff5703;
+    
+}
+
+header {
+    background-color: #000000;
+    color: rgb(0, 183, 255);
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* isotipo */
+
+.isotipo{width: 120px;
+position: absolute;
+margin-left: 300px;
+}
+
+.iso {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 20px;
+ position: relative;       
+}
+
+/* Nav */
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 0.8rem;
+}
+
+header nav ul li a {
+    color: #2dccea;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+}
+
+.hero .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FFA500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Artesanias */
+.productos-section {
+    padding: 2rem;
+    background-color: white;
+    text-align: center;
+}
+
+.productos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto-item {
+    width: 30%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.producto-item h3 {
+    margin: 1rem 0;
+}
+
+/* Botones de comprar */
+
+.producto-item .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sección Emisora */
+.logo{
+    height: 250px;
+
+}
+
+#emisora{
+    background-image: url(./img/branding/Torna.png);
+    background-position: 0px;
+    background-repeat: no-repeat;
+    margin: 10px;
+    }
+
+.sonidos{
+    color: rgb(255, 255, 255);
+}
+
+.emisora-section {
+    padding: 2rem;
+    background: url(./img/branding/);
+    text-align: center;
+}
+
+audio {
+    margin-top: 1rem;
+    width: 50%;-webkit-transition:all 0.5s linear;
+            -moz-transition:all 0.5s linear;
+            -o-transition:all 0.5s linear;
+            transition:all 0.5s linear;
+            -moz-box-shadow: 2px 2px 4px 0px;
+           -moz-border-radius:7px 7px 7px 7px ;
+            -webkit-border-radius:7px 7px 7px 7px ;
+            border-radius:7px 7px 7px 7px ;
+            }
+            audio:hover, audio:focus, audio:active
+            {
+            -webkit-box: 15px 15px 20px;
+            box: 15px 15px 20px;
+            -webkit-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            transform: scale(1.05);
+}
+
+.about-section {
+    padding: 2rem;
+    background-color: white;
+    text-align: center;
+}
+
+.contact-section {
+    padding: 2rem;
+    background-color: #eef;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+

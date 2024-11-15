@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Tominejo</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./img/branding/Isotipo Tominejo Estéreo.png">
+    <!-- Conexión con CSS -->
+    <link rel="stylesheet" href="styleste.css">
+</head>
+<body>
+
+    <!-- Navegador -->
+    <header>
+        <section class="text_iso">
+            <div class="iso">
+                <h1>Grupo Tominej</h1>
+                    <img src= "../img/branding/Colibri emisora.svg" class="isotipo" alt=”isotipo_tominejo”>
+            </div>
+        </section>
+        <nav>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#proyectos">Artesanías</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#testimonios">Emisora</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="crear_cuenta.html">Registrarse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Ingresar</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contáctanos</a>
+                  </li>
+              </ul>
+        </nav>
+    </header>
+
+    <!-- Carrusel -->
+
+    <!-- Sección de Productos -->
+    <section id="productos" class="productos-section">
+        <h2>Artesanías</h2>
+        <div class="productos-container">
+            <div class="producto-item">
+                <img src="../img/artesanías/mochila_negro_amarillo.webp" alt="Mochila Wayuu">
+                <h3>Mochilas Wayuu</h3>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="producto-item">
+                <img src="../img/artesanías/zapatos_verdes.jpeg" alt="Zapatos_Verdes">
+                <h3>Calzado</h3>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <!-- Puedo agregar más productos aquí -->
+        </div>
+    </section>
+
+    <!-- Sección de Emisora -->
+    <section id="emisora" class="emisora-section">
+        <div class="logo">
+            <img src= "../img/branding/Logo Tominejo - Rectangular.png" class="logo" alt=”logo_tominejo_estéreo”>    
+        </div>
+        <br>
+        <p class="sonidos">🎙️Los Sonidos del Campo🌿</p>
+        <div class="emisora-container">
+            <audio controls autoplay>
+                <source src="https://stream.zeno.fm/ot9jwqvallztv" type="audio/mpeg" />
+                <autoplay="autoplay" controls="controls" id="audioAJDDHR" preload="auto">
+                Tu navegador no soporta la reproducción de audio.
+            </audio>
+            <p class="sonidos">Escucha lo mejor de nuestro folclor mientras haces tus compras</p>
+        </div>
+    </section>
+
+    <!-- Sección de Información -->
+    <section id="about" class="about-section">
+        <h2>Sobre Nosotros</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas sapiente repellat in perspiciatis minus iusto obcaecati, placeat optio nobis dolore reprehenderit debitis quis, non harum animi delectus saepe earum sunt.</p>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contact-section">
+        <h2>Contáctanos</h2>
+        <form action="#">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Grupo Tominejo. Todos los derechos reservados.</p>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
